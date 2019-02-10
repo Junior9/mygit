@@ -1,0 +1,23 @@
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off" >
+
+  <input #id="ngModel"  [(ngModel)]="formService.formData.id"  hidden name="id">
+  
+  <div class="form-group">
+    <label>Name</label>
+    <input #name="ngModel" [(ngModel)]="formService.formData.name"  class="form-control" name="name" placeholder="Name" >
+  </div>
+
+  <div class="form-group">
+    <label >Email address</label>
+    <input [(ngModel)]="formService.formData.email" #email="ngModel" type="email" class="form-control" name="email" placeholder="name@example.com">
+  </div>
+
+  <div class="form-group">
+    <label >Description</label>
+    <textarea [(ngModel)]="formService.formData.description" #description="ngModel" class="form-control" name="description" rows="3" placeholder="Entrer with your mensager">
+    </textarea>
+  </div>
+  <div class="form-group">
+    <button class="btn btn-lg btn-block bg-dark text-light"> Ok </button>  
+  </div>
+</form> 
