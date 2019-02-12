@@ -1,9 +1,26 @@
 <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="headingZero">
+      <h5 class="mb-0 text-center">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
+          Install
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseZero" class="collapse" aria-labelledby="headingZero" data-parent="#accordion">
+      <div class="card-body">
+        <app-angular-install></app-angular-install>
+      </div>
+    </div>
+  </div>
+
   <div class="card">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0 text-center">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Angular Cli
+          Commands
         </button>
       </h5>
     </div>
@@ -14,18 +31,34 @@
       </div>
     </div>
   </div>
+
   <div class="card">
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0 text-center">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Angular crud  
+          Configuration
         </button>
       </h5>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">
+        <app-angular-configuration></app-angular-configuration>
+      </div>
+    </div>
+
+    <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0 text-center">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Angular crud
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
         <app-angular-crud></app-angular-crud>
       </div>
     </div>
+  </div>
   </div>
 </div>

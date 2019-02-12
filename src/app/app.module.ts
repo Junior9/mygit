@@ -13,6 +13,17 @@ import {AngularProjetoComponent} from './page/documentation/angular7/session/ang
 import { AngularCrudComponent } from './page/documentation/angular7/session/angular-crud/angular-crud.component';
 import { FormComponent } from './template/form/form.component';
 import { TableComponent } from './template/table/table.component';
+import { JavaComponent } from './page/documentation/java/java.component';
+import { PhpComponent } from './page/documentation/php/php.component';
+import { JavaCreateProjectComponent } from './page/documentation/java/session/java-create-project/java-create-project.component';
+import { JavaSpringCrudComponent } from './page/documentation/java/session/java-spring-crud/java-spring-crud.component';
+import { PhpLaravelCrudComponent } from './page/documentation/php/session/php-laravel-crud/php-laravel-crud.component';
+import { PhpInstallComponent } from './page/documentation/php/session/php-install/php-install.component';
+import { PhpCommandComponent } from './page/documentation/php/session/php-command/php-command.component';
+import { AngularConfigurationComponent } from './page/documentation/angular7/session/angular-configuration/angular-configuration.component';
+import { PhpConfigurationComponent } from './page/documentation/php/session/php-configuration/php-configuration.component';
+import { AngularInstallComponent } from './page/documentation/angular7/session/angular-install/angular-install.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +36,17 @@ import { TableComponent } from './template/table/table.component';
     AngularProjetoComponent,
     AngularCrudComponent,
     FormComponent,
-    TableComponent
+    TableComponent,
+    JavaComponent,
+    PhpComponent,
+    JavaCreateProjectComponent,
+    JavaSpringCrudComponent,
+    PhpLaravelCrudComponent,
+    PhpInstallComponent,
+    PhpCommandComponent,
+    AngularConfigurationComponent,
+    PhpConfigurationComponent,
+    AngularInstallComponent
   ],
   imports: [
     BrowserModule,
