@@ -23,6 +23,7 @@ import { PhpCommandComponent } from './page/documentation/php/session/php-comman
 import { AngularConfigurationComponent } from './page/documentation/angular7/session/angular-configuration/angular-configuration.component';
 import { PhpConfigurationComponent } from './page/documentation/php/session/php-configuration/php-configuration.component';
 import { AngularInstallComponent } from './page/documentation/angular7/session/angular-install/angular-install.component';
+import { JavaSpringTestComponent } from './page/documentation/java/session/java-spring-test/java-spring-test.component';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { AngularInstallComponent } from './page/documentation/angular7/session/a
     PhpCommandComponent,
     AngularConfigurationComponent,
     PhpConfigurationComponent,
-    AngularInstallComponent
+    AngularInstallComponent,
+    JavaSpringTestComponent
   ],
   imports: [
     BrowserModule,
