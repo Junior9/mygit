@@ -24,6 +24,14 @@ import { AngularConfigurationComponent } from './page/documentation/angular7/ses
 import { PhpConfigurationComponent } from './page/documentation/php/session/php-configuration/php-configuration.component';
 import { AngularInstallComponent } from './page/documentation/angular7/session/angular-install/angular-install.component';
 import { JavaSpringTestComponent } from './page/documentation/java/session/java-spring-test/java-spring-test.component';
+import { NodeComponent } from './page/documentation/node/node.component';
+import { NodeInstallComponent } from './page/documentation/node/session/node-install/node-install.component';
+import { NodeCommandsComponent } from './page/documentation/node/session/node-commands/node-commands.component';
+import { NodeConfigurationComponent } from './page/documentation/node/session/node-configuration/node-configuration.component';
+import { NodeExpressComponent } from './page/documentation/node/session/node-express/node-express.component';
+import { NodeBasicCrudComponent } from './page/documentation/node/session/node-basic-crud/node-basic-crud.component';
+import { NodeTypeScriptComponent } from './page/documentation/node/session/node-type-script/node-type-script.component';
+import { NodeTesteComponent } from './page/documentation/node/session/node-teste/node-teste.component';
 
 
 @NgModule({
@@ -48,7 +56,9 @@ import { JavaSpringTestComponent } from './page/documentation/java/session/java-
     AngularConfigurationComponent,
     PhpConfigurationComponent,
     AngularInstallComponent,
-    JavaSpringTestComponent
+    JavaSpringTestComponent,
+    NodeComponent,    
+    NodeInstallComponent, NodeCommandsComponent, NodeConfigurationComponent, NodeExpressComponent, NodeBasicCrudComponent, NodeTypeScriptComponent, NodeTesteComponent
   ],
   imports: [
     BrowserModule,
